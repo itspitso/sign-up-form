@@ -52,12 +52,12 @@
                     <div class="last">
                         <div class="label-input">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
+                        <input type="password" id="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$">
                         </div>
 
                         <div class="label-input">
                         <label for="confirm_passord">CONFIRM PASSWORD</label>
-                        <input type="password">
+                        <input type="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$">
                         </div>
                     </div>
                 </fieldset>
